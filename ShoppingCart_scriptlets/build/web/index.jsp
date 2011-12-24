@@ -12,11 +12,12 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <div style="text-align:center">
         <h1>Shopping Cart</h1>
-        <form name="countTotal" method="POST">
-        <table border="1" width="1" cellspacing="2" cellpadding="4">
+        <form name="countTotal" method="POST" >
+        <table border="1" width="1" cellspacing="2" cellpadding="4" align="center">
             <thead>
-                <tr>
+                <tr style="background-color: rgb(245, 245, 245)">
                     <th>Item</th>
                     <th>Price</th>
                     <th>Quantity</th>
@@ -146,6 +147,8 @@
         </table>
                 <input type="submit" value="Total" name="totalBtn" />
         </form>
-                <a href="https://github.com/epmironova/WWW_Project_3_scriptlets" target="_blank">Report</a>        
+                <a href="https://github.com/epmironova/WWW_Project_3_scriptlets" target="_blank">Report</a> 
+                <a href="https://github.com/epmironova/WWW_Project_3_scriptlets/zipball/master" target="_blank">Code</a>
+        </div>
     </body>
 </html>
