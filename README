@@ -1,0 +1,14 @@
+First part of the project represent a shopping cart implemetation using scriptlets.
+We take the data about the shoppig cart items (name and price) from a xml file via java scriptlet. For developing I used the following resources:
+Populate Web forms with JSP and XML: http://www.techrepublic.com/article/populate-web-forms-with-jsp-and-xml/5075463
+How to read XML file in Java: http://www.java-tips.org/java-se-tips/javax.xml.parsers/how-to-read-xml-file-in-java.html
+
+For every row in the table with items,prices,quantity and total, we do loop through all item in the xml file - name and price, so we can add a new item without changing the code.
+
+For the quantity input field we have 4 cases:
+1) if we start using the web application or the input is not an integer, the field will be 0;
+2) if the entered input is an integer and we don't have the same cookie value for it, we will add new cookie;
+3) if we have the same cookie for that quantity field, we will use it without adding new one;
+4) if something happened like restarting the web browser or other, we will take the cookie, if we have.
+
+For getting the code and viewing the information about its developing, we use links.
