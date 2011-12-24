@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : itemsPrices.xml
+    Created on : Неделя, 2011, Декември 11, 23:47
+    Author     : Eli
+    Description:
+        Purpose of the document follows.
+-->
+
+<root>
+    <item>
+        <name>Cafe</name>
+        <price>18.50</price>
+    </item>
+    <item>
+        <name>Sugar</name>
+        <price>6.95</price>
+    </item>
+    <item>
+        <name>Water</name>
+        <price>1.29</price>
+    </item>
+</root>
