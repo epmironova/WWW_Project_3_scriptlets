@@ -1,4 +1,4 @@
-First part of the project represent a shopping cart implemetation using scriptlets.
+Shopping cart web application using scriptlets:
 We take the data about the shoppig cart items (name and price) from a xml file via java scriptlet. For developing I used the following resources:
 Populate Web forms with JSP and XML: http://www.techrepublic.com/article/populate-web-forms-with-jsp-and-xml/5075463
 How to read XML file in Java: http://www.java-tips.org/java-se-tips/javax.xml.parsers/how-to-read-xml-file-in-java.html
